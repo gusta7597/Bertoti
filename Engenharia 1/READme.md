@@ -24,8 +24,8 @@ off seria um acesso e uso mais facil pela versatilidade do software
 
 <h1>Exercicio 3</h1>
 <p>
-  <b>Loja de roupas</b><br>
-  O usuário deve ser capaz de adicionar, remover e pesquisar por roupas de sua propria escolha.
+  <b>Livraria</b><br>
+  O usuário deve ser capaz de adicionar, remover e pesquisar por livros de sua propria escolha.
   
 </p>
 
@@ -36,10 +36,9 @@ off seria um acesso e uso mais facil pela versatilidade do software
 
 <p>
 <ul>
-  <li>Conseguir comprar roupas, idependente da quantia</li>
+  <li>Conseguir comprar livros, idependente da quantia</li>
   <li>Conseguir ver descrições sobre os itens;</li>
-  <li>Ser capaz de realizar buscas a partir de palavras chave, como: marca, tamanho, tipo da peça(blusa, calça, camiseta etc);</li>
-  <li>Ter a possibilidade de se cadastrar para facilitar o processo de compra</li>
+  <li>Ser capaz de realizar buscas a partir de palavras chave, como:Autor, nome do livro, etc;</li>
 </ul>
 </p>
 <h3>Requisitos não funcionais (qualidades do sistema):</h3>
@@ -50,3 +49,8 @@ off seria um acesso e uso mais facil pela versatilidade do software
   <li>Diversidade de itens a venda;</li>
 </ul>
 </p>
+20/10/2022
+
+<h2> UML </h2>
+<br>
+<img src="" width="100%" />
