@@ -1,3 +1,5 @@
+<h1>Exercicio 1 </h1>
+
 "We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play.
 On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change.
 In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it.
@@ -14,7 +16,37 @@ o tempo, como se tal língua de programação será útil daqui a alguns anos, a
 quantidade de usuários que irá utilizar o tal software. em si um engenheiro de software também é um programador,
 mas é ele faz outras diversas coisas além de programar
 
+<h1>Exercicio 2 </h1>
 R2: O trade off no nosso api é a versatilidade que o nosso software apresenta, poderíamos realizar uma aplicação web 
 o que deixaria o acesso e uso muito mais facil, porém, deixaria o software "preso" a essa função, criando um software 
 desktop deixará o cliente com mais possibilidades de uso, como controle de estoque entre outras coisas. Ou seja o trade
 off seria um acesso e uso mais facil pela versatilidade do software
+
+<h1>Exercicio 3</h1>
+<p>
+  <b>Catálogo de artigos em geociências</b><br>
+  O usuário deve ser capaz de adicionar, remover e pesquisar por artigos científicos da área de geociências. Os resultados das pesquisas devem ser apresentados em um <i>layout</i> diferenciado.
+  
+</p>
+
+</p>
+
+
+<h3> Requisitos funcionais (tarefas ou as ações do sistema):</h3>
+
+<p>
+<ul>
+  <li>Conseguir comprar roupas, idependente da quantia</li>
+  <li>Conseguir ver descrições sobre os itens;</li>
+  <li>Ser capaz de realizar buscas a partir de palavras chave, como: marca, tamanho, tipo da peça(blusa, calça, camiseta etc);</li>
+  <li>Ter a possibilidade de se cadastrar para facilitar o processo de compra</li>
+</ul>
+</p>
+<h3>Requisitos não funcionais (qualidades do sistema):</h3>
+
+<p>
+<ul>
+  <li>Design simples e intuitivo;</li>
+  <li>Diversidade de itens a venda;</li>
+</ul>
+</p>
