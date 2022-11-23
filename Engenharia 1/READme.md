@@ -24,8 +24,8 @@ off seria um acesso e uso mais facil pela versatilidade do software
 
 <h1>Exercicio 3</h1>
 <p>
-  <b>Catálogo de artigos em geociências</b><br>
-  O usuário deve ser capaz de adicionar, remover e pesquisar por artigos científicos da área de geociências. Os resultados das pesquisas devem ser apresentados em um <i>layout</i> diferenciado.
+  <b>Loja de roupas</b><br>
+  O usuário deve ser capaz de adicionar, remover e pesquisar por roupas de sua propria escolha.
   
 </p>
 
