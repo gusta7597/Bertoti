@@ -36,8 +36,8 @@ off seria um acesso e uso mais facil pela versatilidade do software
 
 <p>
 <ul>
-  <li>Conseguir comprar livros, idependente da quantia</li>
-  <li>Conseguir ver descrições sobre os itens;</li>
+  <li>Conseguir reservar livros, independente da quantia</li>
+  <li>Conseguir ver descrições basicas sobre os itens;</li>
   <li>Ser capaz de realizar buscas a partir de palavras chave, como:Autor, nome do livro, etc;</li>
 </ul>
 </p>
@@ -49,7 +49,6 @@ off seria um acesso e uso mais facil pela versatilidade do software
   <li>Diversidade de itens a venda;</li>
 </ul>
 </p>
-20/10/2022
 
 <h2> UML </h2>
 <br>
