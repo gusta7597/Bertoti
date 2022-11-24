@@ -25,7 +25,7 @@ off seria um acesso e uso mais facil pela versatilidade do software
 <h1>Exercicio 3</h1>
 <p>
   <b>Livraria</b><br>
-  O usuário deve ser capaz de adicionar, remover e pesquisar por livros de sua propria escolha.
+  Uma livraria necessita de uma aplicação que receba os pedidos de reserva dos clientes, busque-os por palavras chaves e consiga ver breves descições dos proprios
   
 </p>
 
