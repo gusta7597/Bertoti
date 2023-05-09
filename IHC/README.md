@@ -20,7 +20,7 @@ A heurística número três de Nielsen sugere que toda interação deve permitir
 
 Um exemplo que ilustra bem essa heurística é o site da Amazon, que oferece aos usuários a possibilidade de desfazer a ação de excluir um produto do carrinho de compras. A caixa que indica qual produto foi retirado permite que o usuário possa recuperá-lo, caso a exclusão tenha sido realizada por engano. Dessa forma, o site dá ao usuário o controle da situação e oferece uma forma clara e simples de saída da interação.
 
-<p align="center"><img src = "images_example/amazon.jpg" width = 600/></p>
+<p align="center"><img src = "images/amazon.jpg" width = 600/></p>
 
 <h2>3.3.4: Prevenção de erros</h2>
 
@@ -30,7 +30,7 @@ A heurística em questão tem como foco a criação de uma plataforma que previn
 
 Um exemplo disso é o spotify, que mostra uma caixa de confirmação quando o usuário tenta excluir uma playlist e então avisa o usuário sobre o ato em questão.
 
-<p align="center"><img src = "images_example/spotify.jpg" width = 600/></p>
+<p align="center"><img src = "images/spotify.jpg" width = 600/></p>
 
 <h2>3.3.1: Ajude os usuários a reconhecer, diagnosticar e recuperar erros</h2>
 
@@ -40,7 +40,7 @@ Em caso de erro, é essencial que a plataforma informe ao usuário qual foi o pr
 
 Um exemplo disso é o formulário de criação de conta do Outlook, que sinaliza quando um dado foi preenchido incorretamente e orienta o usuário sobre o local exato do erro, próximo ao campo em que ele ocorreu, além de apresentar os passos necessários para corrigi-lo. Essa abordagem ajuda a aumentar a usabilidade e a experiência do usuário com a plataforma.
 
-<p align="center"><img src = "images_example/outlook.jpg" width = 600/></p>
+<p align="center"><img src = "images/outlook.jpg" width = 600/></p>
 
 <h2>1.4.1 Uso das Cores</h2>
 
@@ -50,7 +50,7 @@ A cor não é utilizada como único meio visual para transmitir informações, i
 
 Um exemplo do uso das cores de uma forma ruim é o site musikcity disso, já que o uso das cores se torna tão discrepante e de forma aleatoria que faz com que o site se torne poluido aos olhos humanos.
 
-<p align="center"><img src = "images_example/musikcity.jpg" width = 600/></p>
+<p align="center"><img src = "images/musikcity.jpg" width = 600/></p>
 
 
 
