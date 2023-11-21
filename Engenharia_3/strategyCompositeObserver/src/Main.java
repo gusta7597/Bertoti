@@ -1,15 +1,28 @@
 public class Main {
     public static void main(String[] args) {
-        WeatherData weatherData = new WeatherData();
+        // Create devices
+        Device light = new Device("Light");
+        Device thermostat = new Device("Thermostat");
 
-        TextDisplay textDisplay = new TextDisplay();
-        GraphicalDisplay graphicalDisplay = new GraphicalDisplay();
+        // Create composite device
+        CompositeDevice smartHome = new CompositeDevice();
+        smartHome.addChildDevice(light);
+        smartHome.addChildDevice(thermostat);
 
-        DisplayGroup displayGroup = new DisplayGroup();
-        displayGroup.addDisplay(textDisplay);
-        displayGroup.addDisplay(graphicalDisplay);
+        // Create monitoring strategies
+        MonitoringStrategy defaultStrategy = new DefaultMonitoringStrategy();
+        MonitoringStrategy advancedStrategy = new AdvancedMonitoringStrategy();
 
-        // Simulando a mudança nos dados meteorológicos
-        weatherData.setMeasurements(25.5f, 60.0f);
+        // Set monitoring strategy for devices
+        light.addObserver(defaultStrategy::performMonitoring);
+        thermostat.addObserver(advancedStrategy::performMonitoring);
+
+        // Simulate device status update
+        light.updateStatus("On");
+        thermostat.updateStatus("Cooling");
+
+        // Notify composite device and its child devices
+        smartHome.notifyChildDevices("Emergency alert!");
+
     }
 }
