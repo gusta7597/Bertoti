@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CompositeDevice extends Subject implements Observer {
-    private List<Subject> childDevices = new ArrayList<>();
+public class SmartHomeView extends NotifyerMakerController implements NotifyerController {
+    private List<NotifyerMakerController> childDevices = new ArrayList<>();
 
-    public void addChildDevice(Subject device) {
+    public void addChildDevice(NotifyerMakerController device) {
         childDevices.add(device);
         device.addObserver(this);
     }
@@ -15,7 +15,7 @@ public class CompositeDevice extends Subject implements Observer {
     }
 
     public void notifyChildDevices(String message) {
-        for (Subject device : childDevices) {
+        for (NotifyerMakerController device : childDevices) {
             device.notifyObservers(message);
         }
     }

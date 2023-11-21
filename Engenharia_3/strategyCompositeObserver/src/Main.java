@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
         // Create devices
-        Device light = new Device("Light");
-        Device thermostat = new Device("Thermostat");
+        DeviceModel light = new Device("Light");
+        DeviceModel thermostat = new Device("Thermostat");
 
         // Create composite device
-        CompositeDevice smartHome = new CompositeDevice();
+        SmartHomeView smartHome = new SmartHomeView();
         smartHome.addChildDevice(light);
         smartHome.addChildDevice(thermostat);
 
         // Create monitoring strategies
-        MonitoringStrategy defaultStrategy = new DefaultMonitoringStrategy();
-        MonitoringStrategy advancedStrategy = new AdvancedMonitoringStrategy();
+        MonitoringController defaultStrategy = new DefaultMonitoringController();
+        MonitoringController advancedStrategy = new AdvancedMonitoringController();
 
         // Set monitoring strategy for devices
         light.addObserver(defaultStrategy::performMonitoring);
