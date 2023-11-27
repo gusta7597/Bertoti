@@ -27,10 +27,4 @@ public class AtendenteView implements ClienteObserver, Pedido {
     public void criarPedido() {
         // Implemente a lógica de criação de pedido
     }
-
-    @Override
-    public void setV(AtendenteView atendente) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setV'");
-    }
 }
